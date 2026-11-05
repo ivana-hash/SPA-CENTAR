@@ -17,26 +17,27 @@ URL_VIDEA
 
 ## Tehnologije
 
-- Java JAVA_VERZIJA
-- NetBeans NETBEANS_VERZIJA
-- Baza podataka: NAZIV_BAZE
-- Komunikacija klijenta i servera: NACIN_KOMUNIKACIJE
+- Java (JDK 17)
+- Apache NetBeans 15
+- Baza podataka: MySQL (baza kreirana u alatu SQLyog)
+- Komunikacija klijenta i servera: soketi
 
 ## Pokretanje
 
-1. Kreirati bazu izvršavanjem skripte `pssem_spa.sql`.
-2. U fajlu `PUTANJA_DO_KONFIGURACIJE` upisati adresu baze, korisničko ime i lozinku.
+1. Kreirati MySQL bazu izvršavanjem skripte `pssem_spa.sql`.
+2. U fajlu `config.properties` u projektu `PROJEKAT_SERVER` proveriti podatke za konekciju na bazu. Podrazumevano: `url=jdbc:mysql://localhost:3306/pssem_spa`, `username=root`, `password` prazan.
 3. U NetBeansu otvoriti sva tri projekta (File, Open Project).
-4. Pokrenuti projekat `PROJEKAT_SERVER` i sačekati da se server podigne na portu PORT.
+4. Pokrenuti projekat `PROJEKAT_SERVER` i sačekati da se server podigne na portu 9000.
 5. Pokrenuti projekat `PROJEKAT_KLIJENT`.
-6. Prijaviti se test nalogom: korisničko ime `TEST_KORISNIK`, lozinka `TEST_LOZINKA`.
+6. Prijaviti se test nalogom: korisničko ime `ivana`, šifra `ika2002`.
 
 ## Funkcionalnosti
 
-- FUNKCIONALNOST_1
-- FUNKCIONALNOST_2
-- FUNKCIONALNOST_3
+- Zakazivanje termina
+- Otkazivanje termina
+- Promena termina
+- Celokupno praćenje rada spa centra
 
 ## Autor
 
-IME_I_PREZIME, FAKULTET, GODINA
+Ivana Đorđević, Fakultet organizacionih nauka (upis 2021), 2026.
