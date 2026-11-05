@@ -1,0 +1,18 @@
+   # NetBeans (Ant)
+   **/nbproject/private/
+   **/build/
+   **/dist/
+   **/nbbuild/
+   **/nbdist/
+
+   # Maven
+   **/target/
+
+   # Java
+   *.class
+   *.log
+
+   # Windows / macOS
+   Thumbs.db
+   desktop.ini
+   .DS_Store
