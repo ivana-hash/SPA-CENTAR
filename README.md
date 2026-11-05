@@ -4,7 +4,7 @@ Klijent-server aplikacija u Javi za rezervaciju termina u spa centru „Prirodni
 
 ## Demo
 
-URL_VIDEA
+snimak_aplikacije.mp4
 
 ## Struktura repozitorijuma
 
